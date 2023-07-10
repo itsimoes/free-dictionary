@@ -1,0 +1,56 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-around;
+  color: var(--grey);
+}
+
+.autoStoriesTwoToneIcon {
+  font-size: 50px !important;
+}
+
+.serif-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-4ca7ag-MuiButtonBase-root-MuiButton-root {
+  text-transform: capitalize !important;
+}
+
+.css-j204z7-MuiFormControlLabel-root {
+  margin-right: 10px !important;
+}
+
+.switcher {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#demo-customized-button {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+#demo-customized-button:hover {
+  color: black;
+  background-color: rgba(138, 43, 226, 0.1);
+}
+  // #demo-customized-button:active {
+  //   color: black;
+  //   background-color: rgba(128,0,128, 0.1);
+  // }
+
+#keyboardArrowDownIcon {
+  color: var(--violet);
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background-color: blueviolet !important;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: blueviolet !important;
+}
+
