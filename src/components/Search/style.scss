@@ -1,0 +1,61 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(1,1,1,0.05);    
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.search-container:hover {
+    background-color: rgba(1,1,1,0.1);    
+}
+
+.fiSearch-icon {
+    padding: 20px;
+    font-size: 20px;    
+    color: var(--violet);
+}
+.search-input {
+    padding: 20px;
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    font-size: 16px;    
+    width: 100%;
+}
+.search-input:focus {
+    outline: none;    
+}
+
+#word {
+    font-size: 50px;
+}
+
+#phonetic {
+    color: var(--violet);
+    font-size: 20px;
+
+}
+
+#word-wrapper {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#play-button {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(138, 43, 226, 0.2) !important;
+    display: none;    
+}
+#play-button:hover {
+    background-color: rgba(138, 43, 226, 0.4) !important;
+}
+
+#source {
+    display: none;
+}
