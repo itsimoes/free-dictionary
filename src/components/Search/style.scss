@@ -1,61 +1,118 @@
 .search-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(1,1,1,0.05);    
-    width: 100%;
-    height: 55px;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(1, 1, 1, 0.05);
+  width: 100%;
+  height: 55px;
+  border-radius: 10px;
 
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .search-container:hover {
-    background-color: rgba(1,1,1,0.1);    
+  background-color: rgba(1, 1, 1, 0.1);
 }
 
 .fiSearch-icon {
-    padding: 20px;
-    font-size: 20px;    
-    color: var(--violet);
+  padding: 20px;
+  font-size: 20px;
+  color: var(--violet);
 }
 .search-input {
-    padding: 20px;
-    background-color: rgba(0,0,0,0);
-    border: 0px;
-    font-size: 16px;    
-    width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+  font-size: 16px;
+  width: 100%;
 }
 .search-input:focus {
-    outline: none;    
+  outline: none;
 }
 
 #word {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 #phonetic {
-    color: var(--violet);
-    font-size: 20px;
-
+  color: var(--violet);
+  font-size: 20px;
 }
 
 #word-wrapper {
-    display: none;
-    justify-content: space-between;
-    align-items: center;
+  display: none;
+  flex-direction: column;
+}
+
+.word-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #play-button {
-    width: 70px;
-    height: 70px;
-    background-color: rgba(138, 43, 226, 0.2) !important;
-    display: none;    
+  width: 70px;
+  height: 70px;
+  background-color: rgba(138, 43, 226, 0.2) !important;
+  display: none;
 }
 #play-button:hover {
-    background-color: rgba(138, 43, 226, 0.4) !important;
+  background-color: rgba(138, 43, 226, 0.4) !important;
 }
 
 #source {
-    display: none;
+  display: none;
+}
+
+.definitions {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  margin-left: 25px;
+  width: 100%;
+}
+#divider-2 {
+  width: 100%;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.li-bullet {
+  color: var(--violet); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  padding-right: 20px;
+}
+li {
+  display: flex;
+  align-items: baseline;
+  text-align: justify;
+}
+
+h1, h2, h4, h5, h6 {
+    font-weight: 500;
+    color: var(--grey);
+}
+
+h5 a {
+    margin-left: 20px;
+    color: var(--grey);
+}
+
+h5 a::after,
+h5 a::after
+{
+  content: "";
+  width: 11px;
+  height: 11px;
+  margin-left: 4px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  filter: invert(50%) sepia(64%) saturate(0%) hue-rotate(145deg) brightness(89%) contrast(94%);  
 }
