@@ -6,14 +6,15 @@ import Divider from "@mui/material/Divider";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 //icons
-import AutoStoriesTwoToneIcon from "@mui/icons-material/AutoStoriesTwoTone";
+import { PiBookBookmarkThin } from "react-icons/pi";
 
 
 const Header = () => {
   return (
     <>
       <div className="header-wrapper">
-        <AutoStoriesTwoToneIcon className="autoStoriesTwoToneIcon" />
+        {/* <AutoStoriesTwoToneIcon className="autoStoriesTwoToneIcon" /> */}
+        <PiBookBookmarkThin className="biBook" />
         <div className="serif-menu">
           <SerifMenu />
           <Divider orientation="vertical" variant="middle" flexItem />

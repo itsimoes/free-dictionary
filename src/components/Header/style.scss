@@ -1,11 +1,12 @@
 .header-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: var(--grey);
 }
 
-.autoStoriesTwoToneIcon {
-  font-size: 50px !important;
+.biBook {
+  font-size: 50px !important;  
+  filter: invert(19%) sepia(94%) saturate(8075%) hue-rotate(268deg) brightness(92%) contrast(92%);
 }
 
 .serif-menu {
