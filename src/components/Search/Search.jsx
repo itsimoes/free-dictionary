@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./style.scss";
-import { BiBook } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 import axios from "axios";
 import Box from "@mui/material/Box";
@@ -130,8 +129,7 @@ const Search = () => {
             placeholder="Search"
             onChange={handleChange}
           />
-          <FiSearch className="fiSearch-icon" />
-          <BiBook className="fiSearch-icon" />
+          <FiSearch className="fiSearch-icon" />      
         </div>
       </form>
       <div id="word-wrapper">
