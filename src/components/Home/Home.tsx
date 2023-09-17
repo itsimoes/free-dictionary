@@ -8,7 +8,7 @@ import Search from "../Search/Search";
 const Home = () => {
   return (
     <>
-      <Container className="home-wrapper">
+      <Container maxWidth="md" className="home-wrapper">
         <Header />
         <Search />
       </Container>      
