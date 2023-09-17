@@ -5,6 +5,7 @@ import axios from "axios";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+import { Button } from "@mui/material";
 
 const Search = () => {
   const [searchField, setSearchField] = useState("");
@@ -94,7 +95,7 @@ const Search = () => {
           </li>
         );
       }
-      console.log(meanings[i].definitions);     
+      console.log(meanings[i].definitions);
 
       resp[i] = (
         <>
@@ -129,7 +130,9 @@ const Search = () => {
             placeholder="Search"
             onChange={handleChange}
           />
-          <FiSearch className="fiSearch-icon" />      
+          <button type="submit" className="search-button" >
+            <FiSearch className="fiSearch-icon" />
+          </button>
         </div>
       </form>
       <div id="word-wrapper">
@@ -156,7 +159,13 @@ const Search = () => {
           <div id="meanings">{meaningBlocks}</div>
         </div>
         <hr id="divider-2" />
-        <h5 id="source">Source <a href={source} target="_blank" rel="noreferrer"> {source}</a></h5>
+        <h5 id="source">
+          Source{" "}
+          <a href={source} target="_blank" rel="noreferrer">
+            {" "}
+            {source}
+          </a>
+        </h5>
       </div>
     </>
   );
