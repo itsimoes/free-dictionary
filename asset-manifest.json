@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/free-dictionary/static/css/main.de87292e.css",
+    "main.js": "/free-dictionary/static/js/main.75ee2452.js",
+    "static/js/787.fb7b064f.chunk.js": "/free-dictionary/static/js/787.fb7b064f.chunk.js",
+    "index.html": "/free-dictionary/index.html",
+    "main.de87292e.css.map": "/free-dictionary/static/css/main.de87292e.css.map",
+    "main.75ee2452.js.map": "/free-dictionary/static/js/main.75ee2452.js.map",
+    "787.fb7b064f.chunk.js.map": "/free-dictionary/static/js/787.fb7b064f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de87292e.css",
+    "static/js/main.75ee2452.js"
+  ]
+}
