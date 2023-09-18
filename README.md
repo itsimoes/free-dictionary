@@ -2,6 +2,8 @@
 
 - Este é um projeto pessoal desenvolvido utilizando ReactJS com base no layout de um app de dicionário web encontrado no site [FrontendMentor](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL)  com intuito de aplicar conhecimentos sobre utilização de componentes ReactJS, conhecimentos sobre utilização de API, incorporação de elementos de **áudio** e estilos da biblioteca [Material UI](https://mui.com/) e criação de temas **claro e escuro** com botão para alteração pelo usuário.
 
+  # Link para o site do projeto: https://itsimoes.github.io/free-dictionary/
+
 - Utiliza:
   - [Material UI](https://mui.com/)
   - API do site [DictionaryAPI](https://dictionaryapi.dev/)
